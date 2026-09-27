@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Shared Style */
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn-primary{
+    background-color: #1D4ED8;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+/* Navber Section */
+
+.navber{
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 100%;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.nav-list, li , a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #575757;
+    
+}
+
+/* Hero Section */
+
+.hero-contain{
+    margin-top: 30px;
+    height: 786px;
+    background-image: url(/assets/banner.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.hero-contain h1{
+    padding-top: 136px;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.hero-contain p{
+    margin: 0 auto;
+    max-width: 829px;
+    max-height: 108px;
+    padding-top: 13px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+#hero-btn{
+    margin-top: 278px;
+    font-size: 1.5rem;
+}
