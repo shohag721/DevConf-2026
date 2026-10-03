@@ -32,6 +32,9 @@
     justify-content: space-between;
     align-items: center;
 }
+.navber i{
+    display: none;
+}
 .nav-list{
     display: flex;
     justify-content: space-between;
@@ -286,4 +289,98 @@ footer{
     color: #FFFFFF40;
     font-size: 1rem;
     font-weight: 400;
+}
+
+
+/* responsive small devices */
+
+@media screen and (max-width: 576px) {
+    .navber{
+        width: 100%;
+        max-width: 90%;
+    }
+    .navber i{
+        display: inline;
+    }
+    .nav-list , .btn-primary{
+        display: none;
+    }
+    .hero-contain{
+        width: 100%;
+        height: 500px;
+    }
+    .hero-contain h1{
+        font-size: 3rem;
+    }
+     .hero-contain p{
+        font-size: 1rem;
+        padding: 10px;
+        line-height: 25px;
+        text-align: left;
+        margin-top: 20px;
+    }
+    .card-sec{
+        width: 100%;
+    }
+    .card-sec h2{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .card-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-info {
+        width: 100%;
+        height: 310px;
+    }
+    .card-info img{
+        max-width: 100%;
+    }
+    .pricing-sec{
+        width: 100%;
+    }
+    .pricing-sec h2{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .pricing-card{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .pcard-info{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .pcard-info button{
+        width: 100%;
+    }
+    .box-area{
+        width: 100%;
+        height: 15%;
+        text-align: center;
+    }
+    .box-area h2{
+        margin-top: 90px;
+        padding: 5px;
+        font-size: 2rem;
+    }
+    .box-area h4{
+        font-size: 1rem;
+        margin-bottom: 90px;
+    }
+    footer{
+        width: 100%;
+    }
+    .f-text p{
+        font-size: 0.85rem;
+    }
+    .left-text{
+        margin-left: 0;
+    }
+    .Privacy{
+        margin-left: 10px;
+    }
 }
